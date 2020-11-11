@@ -75,7 +75,9 @@ If you are unable to improve the algorithm, then we suggest you to solve a less 
 
 
 <br>
+
 #### How to improve algorithm
+
 
 Let's point out some ideas, that may lead to a better efficiency, or other ways to improve your project and have more fun:
 
@@ -101,15 +103,15 @@ Let's point out some ideas, that may lead to a better efficiency, or other ways 
 After step 1, we are going to have a function, that computes a *movie distance* between two actors. In this step we want you to use your code to obtain all pairwise move distances for highest-paid actors of 2019. They are
  
 1. Dwayne Johnson
-* Chris Hemsworth
-* Robert Downey Jr.
-* Akshay Kumar
-* Jackie Chan
-* Bradley Cooper
-* Adam Sandler
-* Scarlett Johansson
-* Sofia Vergara
-* Chris Evans. 
+2. Chris Hemsworth
+3. Robert Downey Jr.
+4. Akshay Kumar
+5. Jackie Chan
+6. Bradley Cooper
+7. Adam Sandler
+8. Scarlett Johansson
+9. Sofia Vergara
+10. Chris Evans. 
 
 Collect data and save it to a file, we will need it soon.
 

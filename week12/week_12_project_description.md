@@ -16,15 +16,15 @@ First of all, you are required to implement a function `get_movie_descriptions_b
 Then we should get movie descriptions for every highest-paid actor of 2019. They are 
 
 1. Dwayne Johnson
-* Chris Hemsworth
-* Robert Downey Jr.
-* Akshay Kumar
-* Jackie Chan
-* Bradley Cooper
-* Adam Sandler
-* Scarlett Johansson
-* Sofia Vergara
-* Chris Evans. 
+2. Chris Hemsworth
+3. Robert Downey Jr.
+4. Akshay Kumar
+5. Jackie Chan
+6. Bradley Cooper
+7. Adam Sandler
+8. Scarlett Johansson
+9. Sofia Vergara
+10. Chris Evans. 
 
 Collect data and save it to files. Every actor should have a separate text file with descriptions of all movies an actor played in.
 
@@ -42,6 +42,7 @@ Checklist of this assignment:
 This week you will be graded for all the work you had been working on for the last three weeks.
 
 By the end of the week you should have
+
 * `imdb_code.py` with all 4 functions implemented
 * `imdb_helper_functions.py` with all helper functions that you used
 * report in jupyter notebok format. Report contains an information about pairwise **movie distances** for the actors, network graphs (see week 11) and wordclouds based on movie discriptions.
