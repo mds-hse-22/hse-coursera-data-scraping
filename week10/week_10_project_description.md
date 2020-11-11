@@ -8,12 +8,11 @@ Hello!
 
 We are starting to work on the final project, where we are going to collect, process, analyse and present data from imdb.com. The project is split into three parts to help you work consistently. The final submission (which costs about 21% of the final grade) is expected on the week 12. On weeks 11 & 12 you are expected to submit intermediate results (they cost 2% of the final grade each). Going through the project step by step and submitting intermediate results will increase the chance of successful final submission, because you will be able to get intermediate feedback (and thus fix your projects before the final submission). Also, It is always easier tackling several small problems, than tackling the only problem, but a big one. And remember: you can not pass a course without passing the final project. So, we encourage you to devote your time to working on the project during all three weeks. Do not leave all the work for the final week, because you might risk not passing the course. So, plan your time accordingly.
 
-Have you heard of [Six degrees of separation] (https://en.wikipedia.org/wiki/Six_degrees_of_separation) theory? Have you heard of the game [Six Degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)? Well,  
-our first goal in the project will be to implement a function, that will help us play this game.
+Have you heard of [Six degrees of separation](https://en.wikipedia.org/wiki/Six_degrees_of_separation) theory? Have you heard of the game [Six Degrees of Kevin Bacon](https://en.wikipedia.org/wiki/Six_Degrees_of_Kevin_Bacon)? Well, our first goal in the project will be to implement a function, that will help us play this game.
 
 The idea is simple. We introduce a special measure of distance between actors. How is it measured? If two actors played in the same movie, the distance between them is 1. If two actors never played in the same move, but there is some actor, who played in some movies with each of the actors, then the distance between the actors is 2. And so on. You can play around [here](https://oracleofbacon.org/help.php) to get a feel. Let's call it *movie distance*.
 
-During first two weeks of the project, we will be implementing a function, counting a distance between given actors. We will be using data from [IMDB] (https://imdb.com) to obtain such an information. Then, we will try to visualize this data.
+During first two weeks of the project, we will be implementing a function, counting a distance between given actors. We will be using data from [IMDB](https://imdb.com) to obtain such an information. Then, we will try to visualize this data.
 
 <br><br><br>
 
@@ -24,7 +23,7 @@ This task is not so easy, so we will solve the problem step by step. This week y
 * we want to be able to get a list of movies that a current actor played in
 * we want to be able to get a list of actors, that played in the current movie
 
-Get [this](https://github.com/magnitofonov/hse-coursera-data-scraping/tree/master/week10/project_template) code template. This week, implement functions `get_actors_by_movie_soup` and `get_movies_by_actor_soup`. There are some other functions templates also, but leave them as they are for a while. We will implement them in the following weeks. Let's talk more precisely, what these functions are about and how they should behave:
+Get [this](https://github.com/magnitofonov/hse-coursera-data-scraping/tree/master/week10/project_templates) code template. This week, implement functions `get_actors_by_movie_soup` and `get_movies_by_actor_soup`. There are some other functions templates also, but leave them as they are for a while. We will implement them in the following weeks. Let's talk more precisely, what these functions are about and how they should behave:
 
 `get_actors_by_movie_soup(cast_page_soup, num_of_actors_limit)`
 
@@ -42,7 +41,7 @@ Get [this](https://github.com/magnitofonov/hse-coursera-data-scraping/tree/maste
 * The function should return only full feature movies. So, it should omit other types of videos, which are marked on imdb like that: TV Series, Short, Video Game, Video short, Video, TV Movie, TV Mini-Series, TV Series short and TV Special.
 
 
-You may want to define supplementary functions, to make your code better. So, feel free to implement any additional functions you might need, but place them in [imdb_helper_functions.py](https://github.com/magnitofonov/hse-coursera-data-scraping/tree/master/week10/project_template) file (we want to keep additional functions separated from essential function, so it would be easier to check your code). You can import these functions to your `imdb_code.py` script or to jupyter notebook, and use them there.
+You may want to define supplementary functions, to make your code better. So, feel free to implement any additional functions you might need, but place them in [`imdb_helper_functions.py`](https://github.com/magnitofonov/hse-coursera-data-scraping/tree/master/week10/project_templates) file (we want to keep additional functions separated from essential function, so it would be easier to check your code). You can import these functions to your `imdb_code.py` script or to jupyter notebook, and use them there.
 
 Also, when you are done with the functions, think about the following actions. Next week we will be implementing a function, that takes two actors as an input, and returns the *movie distance* between actors. Try to come up with an algorithm, that would solve such a problem.
 
