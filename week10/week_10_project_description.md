@@ -56,7 +56,8 @@ Also, when you are done with the functions, think about the following actions. N
 * You might want to add some additional arguments and functionality to your functions. For example, a simple logging could be done as an additional function argument, that (when set to `True`) will allow us to see, what is going on inside a function by printing intermediate variable values. Logging helps us a lot in testing functions.
 * If you need to click some button, you can use selenium. Below is a sample code in which you need to specify SERVICE_PATH and XPATH.
 
-```service = selenium.webdriver.chrome.service.Service(SERVICE_PATH)
+```
+service = selenium.webdriver.chrome.service.Service(SERVICE_PATH)
 options = selenium.webdriver.ChromeOptions()
 options.add_argument('lang=en')
 driver = webdriver.Chrome(service=service, options=options)
@@ -65,7 +66,8 @@ button = driver.find_element(
     'xpath', 
     XPATH
 )
-driver.execute_script('arguments[0].click();', button)```
+driver.execute_script('arguments[0].click();', button)
+```
 
 <br><br><br>
 
