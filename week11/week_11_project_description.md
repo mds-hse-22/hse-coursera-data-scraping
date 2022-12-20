@@ -175,6 +175,7 @@ imdb_code.py should contain three functions implemented. The first two should ha
 <br>
 imdb_helper_functions.py should contain all helper functions necessary for your code to work.
 
+
 In addition to `imdb_code.py` and `imdb_helper_functions.py` the archive should contain csv-file `distances.csv` with information about pairwise movie distances for the actors. The information should have the following structure: first actor's name, link to first actor's page, second actor's name, link to second actor's page, distance. The distances should be counted separately in each direction, which means from the first actor to the second actor and from the second actor to the first actor. Also the archive can contain file `report.ipynb` which contains information about pairwise movie distances for the actors and network graphs.
 
 We will check the following
