@@ -10,7 +10,7 @@ We continue working on our project. This week we want
 
 1. to implement a function, measuring *movie distance* between two actors
 2. calculate *movie distances* between all highest-paid actors
-3. visualise the distances as a graph
+3. visualise the distances as a graph (you can do it this week or next)
 
 **Be aware, that collecting necessary data may take quite a time, so start in advance!**
 
@@ -158,10 +158,12 @@ Also, you don't need to submit these visualisations this week. We are going to c
 ### General summary for the review criteria.
 
 
-You are required to submit a ZIP-archive with two files
+You are required to submit a ZIP-archive with three or foure files
 
 * `imdb_code.py`
 * `imdb_helper_functions.py`
+* `distances.csv`
+* `report.ipynb` (you can do it this week or next)
 
 <br>
 `imdb_code.py` should contain three functions implemented. The first two should had been implemented last week, so just add a code for a third one
@@ -173,10 +175,12 @@ You are required to submit a ZIP-archive with two files
 <br>
 `imdb_helper_functions.py` should contain all helper functions necessary for your code to work.
 
+In addition to `imdb_code.py` and `imdb_helper_functions.py` the archive should contain csv-file `distances.csv` with information about pairwise movie distances for the actors. The information should have the following structure: first actor's name, link to first actor's page, second actor's name, link to second actor's page, distance. The distances should be counted separately in each direction, which means from the first actor to the second actor and from the second actor to the first actor. Also the archive can contain file `report.ipynb` which contains information about pairwise movie distances for the actors and network graphs.
+
 We will check the following
 
-* The functions implementation is present
-* The function `get_movie_distance` somehow works, i.e. it returns something for a given input
+* The functions implementation ans csv-file with distances are present
+* The function `get_movie_distance` works correctly, i.e. it returns correct values
 * The function `get_movie_distance` works with URLs containing *www* and URLs not containing *www*
 * The functions return format is correct (integer number)
 * The functions `get_movie_distance` have a possibility to limit the number of movies or actors, i.e. arguments `num_of_actors_limit` and `num_of_movies_limit` could be passed and used inside the function
