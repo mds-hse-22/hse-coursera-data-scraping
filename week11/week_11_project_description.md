@@ -166,14 +166,14 @@ You are required to submit a ZIP-archive with three or foure files
 * `report.ipynb` (you can do it this week or next)
 
 <br>
-`imdb_code.py` should contain three functions implemented. The first two should had been implemented last week, so just add a code for a third one
+imdb_code.py should contain three functions implemented. The first two should had been implemented last week, so just add a code for a third one
 
 * `get_actors_by_movie_soup`
 * `get_movies_by_actor_soup`
 * `get_movie_distance`
 
 <br>
-`imdb_helper_functions.py` should contain all helper functions necessary for your code to work.
+imdb_helper_functions.py should contain all helper functions necessary for your code to work.
 
 In addition to `imdb_code.py` and `imdb_helper_functions.py` the archive should contain csv-file `distances.csv` with information about pairwise movie distances for the actors. The information should have the following structure: first actor's name, link to first actor's page, second actor's name, link to second actor's page, distance. The distances should be counted separately in each direction, which means from the first actor to the second actor and from the second actor to the first actor. Also the archive can contain file `report.ipynb` which contains information about pairwise movie distances for the actors and network graphs.
 
