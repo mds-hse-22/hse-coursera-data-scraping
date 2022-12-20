@@ -48,6 +48,7 @@ By the end of the week you should have
 * report in jupyter notebok format. Report contains an information about pairwise **movie distances** for the actors, network graphs (see week 11) and wordclouds based on movie discriptions.
 * csv-file containing information about pairwise **movie distances**
 * text files with movie description for every actor
+* imdb_week_10.ipynb, which show the work of your functions with given arguments (see week 10, please fix remarks if there were any)
 
 Provide a ZIP-archive with these files.
 
@@ -55,28 +56,28 @@ Provide a ZIP-archive with these files.
 
 ### General summary for the review criteria.
 
-* An archive contains files `imdb_code.py`, `imdb_helper_functions.py`, report in jupyter notebok format, csv-file containing information about pairwise **movie distances** and text files with movie description for every actor.
+* An archive contains files `imdb_code.py`, `imdb_helper_functions.py`, report in jupyter notebok format, csv-file containing information about pairwise **movie distances**, text files with movie description for every actor and imdb_week_10.ipynb
 
 **Week 10 criteria**
 
-* The functions implementation is present
-* The functions somehow work, i.e. they return something for a given input
+* The functions implementation is present, the ipynb file with output for function calls with the specified arguments is presented
+* The functions work correctly, i.e. they return the correct values for a given input
 * The functions return format is correct (list of pairs)
-* The functions have a possibility to limit the number of movies or actors in the output and it works.
+* The functions have a possibility to limit the number of movies or actors in the output and it works (also if the number of movies or actors is less than the set limit)
 * The function `get_movies_by_actor_soup` returns movies for both male and female actors
 * The function `get_movies_by_actor_soup` returns movies where the current actor was involved as an actor, and not as somebody else (director, producer)
-* The function get_movies_by_actor_soup returns only full feature films, and not something else (like TV series)
+* The function `get_movies_by_actor_soup` returns only full feature films, and not something else (like TV series)
 * The function `get_movies_by_actor_soup` returns only those films, that have been already released
 * The function `get_actors_by_movie_soup` returns both male and female actors that played in the movie
 * The function `get_actors_by_movie_soup` returns only actors (not some other crew members)
 
 **Week 11 criteria**
 
-* The functions implementation is present
-* The function `get_movie_distance` somehow works, i.e. it returns something for a given input
-* The function `get_movie_distance` works with URLs containing *www* and URLs not containing *www*
+* The functions implementation and the csv-file with distances are present
+* The function `get_movie_distance` works correctly, i.e. it returns correct values
+* The function `get_movie_distance` works with URLs containing www (www.imdb.com/...) and URLs not containing www (imdb.com/....)
 * The functions return format is correct (integer number)
-* The functions `get_movie_distance` have a possibility to limit the number of movies or actors, i.e. arguments `num_of_actors_limit` and `num_of_movies_limit` could be passed and used inside the function
+* The functions `get_movie_distance` have a possibility to limit the number of movies or actors, i.e. arguments num_of_actors_limit and num_of_movies_limit could be passed and used inside the function
 
 **Week 12 criteria - Network graphs**
 
@@ -94,4 +95,4 @@ Provide a ZIP-archive with these files.
 * Final report contains a code for reading movie descriptions from files
 * Final report contains a code for preprocess movie descriptions (concatenation, getting rid of stopword)
 * Final report contains a code for printing out a wordcloud. 
-* FInal report contains 10 wordclouds. One for each actor.
+* Final report contains 10 wordclouds. One for each actor.
