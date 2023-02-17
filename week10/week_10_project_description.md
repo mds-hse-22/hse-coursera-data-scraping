@@ -54,20 +54,7 @@ Also, when you are done with the functions, think about the following actions. N
 * Test your functions before submitting! Make sure they work, try out different input. Answer the following questions: does your function return movies for both male and female actors? Does your function return movies where the current actor was involved as an actor, and not as somebody else (director, producer)? Does your function return only full feature films, and not something else (like TV series)? Does your function return only those films, that have been already released?
 * Don't forget about helper functions. A good way is to break bigger functions into smaller parts, and it is easier to test each part. Put your helper functions in `imdb_helper_functions.py`.
 * You might want to add some additional arguments and functionality to your functions. For example, a simple logging could be done as an additional function argument, that (when set to `True`) will allow us to see, what is going on inside a function by printing intermediate variable values. Logging helps us a lot in testing functions.
-* If you need to click some button, you can use selenium. Below is a sample code in which you need to specify SERVICE_PATH and XPATH.
 
-```
-service = selenium.webdriver.chrome.service.Service(SERVICE_PATH)
-options = selenium.webdriver.ChromeOptions()
-options.add_argument('lang=en')
-driver = webdriver.Chrome(service=service, options=options)
-driver.get(url)
-button = driver.find_element(
-    'xpath', 
-    XPATH
-)
-driver.execute_script('arguments[0].click();', button)
-```
 
 <br><br><br>
 
