@@ -83,8 +83,8 @@ You are required to submit a ZIP-archive with three files
     * actress Scarlett Johansson https://www.imdb.com/name/nm0424060/, num_of_movies_limit=5
 * for `get_actors_by_movie_soup`:
     * movie "Black Widow" https://www.imdb.com/title/tt3480822/fullcredits/
-    * movie "Black Widow" https://www.imdb.com/title/tt3480822/fullcredits/, num_of_movies_limit=150
-    * movie "Black Widow" https://www.imdb.com/title/tt3480822/fullcredits/, num_of_movies_limit=5 
+    * movie "Black Widow" https://www.imdb.com/title/tt3480822/fullcredits/, num_of_actors_limit=150
+    * movie "Black Widow" https://www.imdb.com/title/tt3480822/fullcredits/, num_of_actors_limit=5 
 
 **We will check the following**
 
